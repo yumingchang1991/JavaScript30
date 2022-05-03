@@ -7,7 +7,6 @@ function addHomeButton() {
 function returnContainer() {
   const Container = document.createElement('div')
   Container.style.position = 'fixed'
-  Container.style.height = '25vh'
   Container.style.textAlign = 'center'
   Container.className = 'home-button-container'
   Container.appendChild(returnHomeButtonElement())
@@ -17,6 +16,7 @@ function returnContainer() {
 function returnHomeButtonElement() {
   const homeButton = document.createElement('button')
   homeButton.style.width = '100vw'
+  homeButton.style.height = '25vh'
   homeButton.style.background = '#e6e6e6'
   homeButton.style.paddingInline = '1rem'
   homeButton.style.paddingBlock = '0.7rem'
