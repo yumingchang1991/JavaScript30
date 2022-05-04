@@ -7,6 +7,8 @@ function returnNavBar() {
   const NavBar = document.createElement('nav')
   // position
   NavBar.style.position = 'fixed'
+  NavBar.style.top = 0
+  NavBar.style.left = 0
   // box size
   NavBar.style.width = '100vw'
   NavBar.style.margin = 0
