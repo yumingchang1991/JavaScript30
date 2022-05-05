@@ -14,6 +14,18 @@
         <div class="hand second-hand"></div>
       </div>
     </div>
+    <table>
+      <tr>
+        <th>hr</th>
+        <th>min</th>
+        <th>sec</th>
+      </tr>
+      <tr>
+        <td class='hour-display'>xx</td>
+        <td class='min-display'>xx</td>
+        <td class='sec-display'>xx</td>
+      </tr>
+    </table>
 
 
   <style>
@@ -29,6 +41,8 @@
       margin: 0;
       font-size: 2rem;
       display: flex;
+      flex-direction: column;
+      justify-content: center;
       flex: 1;
       min-height: 100vh;
       align-items: center;
@@ -62,6 +76,16 @@
       background: black;
       position: absolute;
       top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg)
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background: #e6e6e6;
+      padding: 0.4em;
+      font-size: 1.1em;
     }
 
   </style>
