@@ -9,7 +9,8 @@ All challenges are written from vanila JavaScript.
 - index.html and style.css are pre-designed by Wes Bos
 
 ### Logs
-| Day | Date       | Challenge | Obstacles | New Findings                                   |
-| --- | ---------- | --------- | --------- | ---------------------------------------------- |
-|  1  | 2022-05-04 | Drum Kit  | x         | transition listener & dataset in querySelector |
-|  2  | 2022-05-05 | Clock     | x         |  |
+| Day | Date       | Challenge     | Obstacles | New Findings                                      |
+| --- | ---------- | ------------- | --------- | ------------------------------------------------- |
+|  1  | 2022-05-04 | Drum Kit      | x         | transitionend listener & dataset in querySelector |
+|  2  | 2022-05-05 | Clock         | x         | transform-origin & transition |
+|  3  | 2022-05-06 | CSS Variable  | x         |  |
