@@ -41,8 +41,7 @@
       font-size: 2rem;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      flex: 1;
+      justify-content: center;
       min-height: 100vh;
     }
 
@@ -78,12 +77,28 @@
       transform: rotate(90deg)
     }
 
+    table {
+      flex-grow: 0;
+      align-self: center;
+    }
+
     table, th, td {
       margin: 5px;
-      border: 1px solid black;
+      padding-inline: 1em;
+      border: 1px solid darkgray;
       border-collapse: collapse;
-      padding: 0.2em;
       font-size: 1em;
+    }
+
+    @media (max-width: 767px) {
+      body {
+        justify-content: flex-start;
+      }
+
+      .clock {
+        width: 23rem;
+        height: 23rem;
+      }
     }
 
   </style>
