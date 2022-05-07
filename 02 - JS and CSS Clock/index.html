@@ -7,17 +7,6 @@
   <title>JS + CSS Clock</title>
 </head>
 <body>
-
-
-    
-    
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
-      </div>
-    </div>
     <table>
       <tr>
         <th>hr</th>
@@ -30,10 +19,17 @@
         <td class='sec-display'>xx</td>
       </tr>
     </table>
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+    </div>
 
   <style>
     html {
-      background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+      background: #e6e6e6 url(https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3570&q=80);
       background-size: cover;
       font-family: 'helvetica neue';
       text-align: center;
@@ -45,10 +41,9 @@
       font-size: 2rem;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       flex: 1;
       min-height: 100vh;
-      align-items: center;
     }
 
     .clock {
@@ -84,11 +79,11 @@
     }
 
     table, th, td {
+      margin: 5px;
       border: 1px solid black;
       border-collapse: collapse;
-      background: #e6e6e6;
-      padding: 0.4em;
-      font-size: 1.4em;
+      padding: 0.2em;
+      font-size: 1em;
     }
 
   </style>
