@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Flex Panels 💪</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -26,6 +28,8 @@
     .panels {
       min-height: 100vh;
       overflow: hidden;
+      display: flex;
+      justify-content: center;
     }
 
     .panel {
@@ -33,6 +37,10 @@
       box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
       color: white;
       text-align: center;
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
       /* Safari transitionend event.propertyName === flex */
       /* Chrome + FF transitionend event.propertyName === flex-grow */
@@ -56,8 +64,17 @@
       margin: 0;
       width: 100%;
       transition: transform 0.5s;
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
+    .panel > *:first-child { transform: translateY(-100%); }
+    .panel.open-active > *:first-child { transform: translateY(0); }
+    .panel > *:last-child { transform: translateY(100%); }
+    .panel.open-active > *:last-child { transform: translateY(0); }
+    
     .panel p {
       text-transform: uppercase;
       font-family: 'Amatic SC', cursive;
@@ -71,6 +88,13 @@
 
     .panel.open {
       font-size: 40px;
+      flex-grow: 5;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .panel p {
+        font-size: 1em;
+      }
     }
 
   </style>
@@ -104,10 +128,9 @@
     </div>
   </div>
 
-  <script>
-
-  </script>
-
+  
+  <script src="../NavBar.js"></script>
+  <script src="main.js"></script>
 
 
 </body>
