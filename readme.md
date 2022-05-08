@@ -11,7 +11,7 @@ All challenges are written from vanila JavaScript.
 ### Logs
 | Day | Date       | Challenge          | Obstacles | New Learnings                                     |
 | --- | ---------- | ------------------ | --------- | ------------------------------------------------- |
-|  1  | 2022-05-04 | Drum Kit           | x         | transitionend listener & dataset in querySelector |
+|  1  | 2022-05-04 | Drum Kit           | x         | 1) transitionend listener  2) access dataset in querySelector |
 |  2  | 2022-05-05 | Clock              | x         | transform-origin & transition |
 |  3  | 2022-05-06 | CSS Variable       | x         | create CSS varialbe at :root{} with -- prefix & access CSS variables from JavaScript using document.documentElement.style.setProperty() |
 |  4  | 2022-05-07 | Array Cardio       | x         | Array.from() to make NodeList with full array methods & use reduce to return an object including result we need & use Array.sort() and string could be compared directly without using String.charCodeAt(index) |
