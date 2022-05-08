@@ -9,11 +9,11 @@ All challenges are written from vanila JavaScript.
 - index.html and style.css are pre-designed by Wes Bos
 
 ### Logs
-| Day | Date       | Challenge          | Obstacles | New Learnings                                     |
-| --- | ---------- | ------------------ | --------- | ------------------------------------------------- |
-|  1  | 2022-05-04 | Drum Kit           | x         | 1) transitionend listener  2) access dataset in querySelector |
-|  2  | 2022-05-05 | Clock              | x         | transform-origin & transition |
-|  3  | 2022-05-06 | CSS Variable       | x         | create CSS varialbe at :root{} with -- prefix & access CSS variables from JavaScript using document.documentElement.style.setProperty() |
-|  4  | 2022-05-07 | Array Cardio       | x         | Array.from() to make NodeList with full array methods & use reduce to return an object including result we need & use Array.sort() and string could be compared directly without using String.charCodeAt(index) |
-|  5  | 2022-05-08 | Flex Panel Gallery | x         | CSS selector '>', ':first-child', ':last-child' & nested flex with flex-grow to render responsively & browser interprets transitionend event property flex and flex-grow differently |
-|  6  | 2022-05-09 | Type Ahead         | x         |  |
+| Day | Date       | Challenge          | New Learnings                                     |
+| --- | ---------- | ------------------ | ------------------------------------------------- |
+|  1  | 2022-05-04 | Drum Kit           | 1) Use `transitionend` listener, which returns events for each CSS property changed <br/> 2) Access dataset in querySelector: `Node[data-key=52]` |
+|  2  | 2022-05-05 | Clock              | 1) Use `CSS transform-origin: \[0% ~ 100%]` to control the middle point of `transform: rotate()` <br/> 2) Use CSS `transition` to specify how long it takes for a property to change |
+|  3  | 2022-05-06 | CSS Variable       | 1) Create CSS varialbe at `:root{}` with `--` prefix <br/> 2) Access CSS variables from JavaScript using `document.documentElement.style.setProperty(CSSVarName, ValueToSet)` |
+|  4  | 2022-05-07 | Array Cardio       | 1) Use `array.from()` to make NodeList with full array methods <br/> 2) Use `array.reduce()` to return an **object** storing results we need <br/> 3) Use `Array.sort()` and realize that **string could be compared directly** without using `String.charCodeAt(index)` |
+|  5  | 2022-05-08 | Flex Panel Gallery | 1) Use CSS selector `>`, `:first-child`, `:last-child` <br/> 2) Create nested flex with `flex-grow` to make components occupied whole space and render responsively <br/> 3) Realize browsers interpret transitionend event property for flex and flex-grow differently |
+|  6  | 2022-05-09 | Type Ahead         |  |
