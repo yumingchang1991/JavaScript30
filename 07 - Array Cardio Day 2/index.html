@@ -57,11 +57,8 @@ raw data comments:`)
     console.log(`commentFound: id=${commentFound.id}, content=${commentFound.text}`)
 
     // Array.prototype.findIndex()
-    // Find the comment with this ID
-    // delete the comment with the ID of 823423
     console.log('delete the comment with the ID of 823423')
     const indexToRemoved = comments.findIndex(comment => comment.id === 823423)
-    console.log(`comment id to removed: ${ comments[indexToRemoved].id }`)
     comments.splice(indexToRemoved, 1)
     console.log(`----
 comments after removal:`)
