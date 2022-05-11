@@ -58,16 +58,23 @@ const view = {
 
 const controller = {
   run() {
+    canvas.addEventListener('touchmove', view.draw)
+    canvas.addEventListener('touchstart', this.handleClick)
+    canvas.addEventListener('touchend', () => model.isDrawing = false)
+    canvas.addEventListener('touchcancel', () => model.isDrawing = false)
+
     canvas.addEventListener('mousemove', view.draw)
-    canvas.addEventListener('mousedown', (e) => {
-      model.isDrawing = true
-      // [model.lastX, model.lastY] = [e.offsetX, e.offsetY]
-      model.lastX = e.offsetX
-      model.lastY = e.offsetY
-    })
+    canvas.addEventListener('mousedown', this.handleClick)
     canvas.addEventListener('mouseup', () => model.isDrawing = false)
     canvas.addEventListener('mouseout', () => model.isDrawing = false)
   },
+
+  handleClick(e) {
+    model.isDrawing = true
+    // [model.lastX, model.lastY] = [e.offsetX, e.offsetY]
+    model.lastX = e.offsetX
+    model.lastY = e.offsetY
+  }
 }
 
 controller.run()
