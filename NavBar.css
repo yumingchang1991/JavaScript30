@@ -1,9 +1,7 @@
 nav.nav-bar {
-  /* position: fixed;
-  top: 0vh;
-  right: 0vw; */
   margin: 0;
   opacity: 0.6;
+  z-index: 10;
 }
 
 nav.nav-bar:hover,
