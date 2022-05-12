@@ -7,14 +7,31 @@
   <title>HTML5 Canvas</title>
 </head>
 <body>
-<canvas id="draw" width="800" height="800"></canvas>
 
-<script src="/JavaScript30/NavBar.js"></script>
-<script src="main.js"></script>
+  <div class="instructions">
+    <p>Desktop only ... Click & Drag your mouse anywhere on this page </p>
+  </div>
+  <canvas id="draw" width="800" height="800"></canvas>
+
+  <script src="/JavaScript30/NavBar.js"></script>
+  <script src="main.js"></script>
 
 <style>
   html, body {
     margin: 0;
+    width: 100vw;
+  }
+  .instructions {
+    position: fixed;
+    left: 40%;
+    margin: 0 auto;
+    padding-inline: 4vh;
+    border-bottom: 1px dotted #252525;
+  }
+  .instructions p {
+    font-family:'calibri';
+    font-size: 0.6em;
+    color: #252525
   }
 </style>
 
