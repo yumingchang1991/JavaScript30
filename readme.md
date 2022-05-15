@@ -22,4 +22,5 @@ All challenges are written from vanila JavaScript.
 |  9  | 2022-05-12 | Dev Tools Domination         | 1) Use console.dir(HTMLDOMElement) to print DOM Element as object <br> 2) Use console.groupCollapsed(key) & console.groupend(key) to group log messages together <br> 3) Use console.time(key) & console.timeEnd(key) for timing a block of code <br> 4) Use console.log('%c stringToLog', inlineCSS) to use CSS to style log message |
 |  10 | 2022-05-13 | Hold Shift & Check Chckboxes | 1) Use event.shiftKey to check if user is holding shift key |
 |  11 | 2022-05-14 | Custom Video Player          | 1) Select elements based on their dataset by using `querySelector('[data-set]')` <br> 2) Use video event listeners like play, pause and timeupdate |
-|  12 | 2022-05-15 | Key Sequence Detection       |  |
+|  12 | 2022-05-15 | Key Sequence Detection       | it is just pure fun to know cornify CDN |
+|  13 | 2022-05-16 | Slide in Scroll              |  |
