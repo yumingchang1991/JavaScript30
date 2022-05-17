@@ -24,4 +24,5 @@ All challenges are written from vanila JavaScript.
 |  11 | 2022-05-14 | Custom Video Player          | 1) Select elements based on their dataset by using `querySelector('[data-set]')` <br> 2) Use video event listeners like play, pause and timeupdate |
 |  12 | 2022-05-15 | Key Sequence Detection       | it is just pure fun to know cornify CDN |
 |  13 | 2022-05-16 | Slide in on Scroll           | 1) Use scroll event <br> 2) `window.scrollY` is equal to `window.pageYOffset` in modern browser <br> 3) `window.innherHeight` includes the height of horizental scrollbar if presented <br> 4) `scroll` event fires very often, so need to use a debounce function to reduce the frequency firing scroll event for better performance |
-|  14 | 2022-05-17 | JS References V.S. Copying   |  |
+|  14 | 2022-05-17 | JS References V.S. Copying   | 1) Use `Object.assign()` to copy an object one-level deep <br> 2) Use `JSON.parse(JSON.stringify(obj))` as a hack to workaround the one-level deep problem, but do you really need it? |
+|  15 | 2022-05-18 | LocalStorage                 |  |
