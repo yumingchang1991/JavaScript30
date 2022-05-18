@@ -79,3 +79,19 @@ h2 {
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.container {
+  margin-block: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container button {
+  border-radius: 4px;
+}
+
+.container button:hover {
+  background-color: #262626;
+  color: white;
+}

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LocalStorage</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,11 +25,17 @@
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
     </form>
+    <div class="container">
+      <button class="delete-all">Delete All</button>
+      <button class="select-all">Select All</button>
+      <button class="unselect-all">Unselect All</button>
+    </div>
   </div>
 
 <script>
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
+  const buttonContainer = document.querySelector('.container')
   const items = JSON.parse(localStorage.getItem('items')) || [];
 
   function addItem(e) {
@@ -64,9 +72,32 @@
     populateList(items, itemsList);
   }
 
+  function executeButton(e) {
+    const targetClassList = e.target.classList
+    if (targetClassList.contains('delete-all')) {
+      deleteAll()
+    } else if (targetClassList.contains('select-all')) {
+      toggleListItems(true)
+    } else {
+      toggleListItems(false)
+    }
+  }
+
+  function deleteAll() {
+    itemsList.innerHTML = ``
+    items.splice(0, items.length)
+    localStorage.removeItem('items')
+  }
+
+  function toggleListItems(toChecked) {
+    items.forEach( item => item.done = toChecked)
+    localStorage.setItem('items', JSON.stringify(items));
+    populateList(items, itemsList);
+  }
+
   addItems.addEventListener('submit', addItem);
   itemsList.addEventListener('click', toggleDone);
-
+  buttonContainer.addEventListener('click', executeButton)
   populateList(items, itemsList);
 
 </script>
