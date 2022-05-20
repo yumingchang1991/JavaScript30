@@ -21,22 +21,22 @@
       min-height: 100vh;
     }
 
-    #bands {
+    ul {
       list-style: inside square;
       font-size: 20px;
       background: white;
-      width: 500px;
+      width: 300px;
       margin: auto;
       padding: 0;
       box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
     }
 
-    #bands li {
+    ul li {
       border-bottom: 1px solid #efefef;
       padding: 20px;
     }
 
-    #bands li:last-child {
+    ul li:last-child {
       border-bottom: 0;
     }
 
@@ -44,10 +44,29 @@
       color: #ffc600;
       text-decoration: none;
     }
+
+    .wrapper {
+      display: flex;
+      gap: 1em;
+      margin-inline: auto;
+    }
+
+
+
   </style>
 
-  <ul id="bands"></ul>
-  
+  <div class="wrapper">
+    <div class="list-container">
+      <h3>raw data</h3>
+      <ul id="bands-raw"></ul>
+    </div>
+
+    <div class="list-container">
+      <h3>data sorted without 'the', 'a', 'an'</h3>
+      <ul id="bands-sorted"></ul>
+    </div>
+  </div>
+
   <script src="../NavBar.js"></script>
   <script src="main.js"></script>
 
