@@ -28,4 +28,5 @@ All challenges are written from vanila JavaScript.
 |  15 | 2022-05-18 | LocalStorage & Event Delegation | 1) Listen to `submit` event on a form is more precise than a `click` event on a submit button <br> 2) Use THIS smartly <br> 3) The `checked` attribute of a checkbox: no matter what value we put, even a false, as long as it is there, it CHECKS the checkbox |
 |  16 | 2022-05-19 | Mouse Move Shadow            | When event listener is put on parent, `this` is always the parent inside event handler. `e.target` is not always equal to `this` because of event delegation |
 |  17 | 2022-05-20 | Sort Without Articles        | Just fun practicing `regular expresssion` and `sort` |
-|  18 | 2022-05-21 | Geolocation                  |  |
+|  18 | 2022-05-21 | Adding up Times              | 1) Use `array.map(parseFloar)` to turn all array items into number <br> 2) Chaining `array.map()` & `array.reduce` |
+|  19 | 2022-05-22 | Webcam Fun                   |  |
