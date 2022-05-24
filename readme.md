@@ -29,4 +29,4 @@ All challenges are written from vanila JavaScript.
 |  16 | 2022-05-19 | Mouse Move Shadow            | When event listener is put on parent, `this` is always the parent inside event handler. `e.target` is not always equal to `this` because of event delegation |
 |  17 | 2022-05-20 | Sort Without Articles        | Just fun practicing `regular expresssion` and `sort` |
 |  18 | 2022-05-21 | Adding up Times              | 1) Use `array.map(parseFloar)` to turn all array items into number <br> 2) Chaining `array.map()` & `array.reduce` |
-|  19 | 2022-05-22 | Webcam Fun                   |  |
+|  19 | 2022-05-22 | Webcam Fun                   | 1) Loop through each single pixels to make webcam looks like with filter-effect 2) HTML tag `link` has an attribute to enable download: `link.setAttribute('download', filename)` |
