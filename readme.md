@@ -31,4 +31,5 @@ All challenges are written from vanila JavaScript.
 |  18 | 2022-05-21 | Adding up Times              | 1) Use `array.map(parseFloar)` to turn all array items into number <br> 2) Chaining `array.map()` & `array.reduce` |
 |  19 | 2022-05-22 | Webcam Fun                   | 1) Loop through each single pixels to make webcam looks like with filter-effect 2) HTML tag `link` has an attribute to enable download: `link.setAttribute('download', filename)` |
 |  20 | 2022-05-23 | Speech Detection             | 1) Container tag, like `div`, has an attribute `contenteditable` that allow users to edit the textContent. It looks like an TextArea but prettier. <br> 2) Have fun with `window.SpeechRecognition` |
-|  21 | 2022-05-24 | Geolocation                  | 1)  |
+|  21 | 2022-05-24 | Geolocation                  | 1) Use `navigator.geolocation.watchPosition` <br> 2) Need to be on `https` to successfully allow the program to access location |
+|  22 | 2022-05-25 | Follow Along Link Highlight  |  |
