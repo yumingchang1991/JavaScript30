@@ -33,4 +33,5 @@ All challenges are written from vanila JavaScript.
 |  20 | 2022-05-23 | Speech Detection             | 1) Container tag, like `div`, has an attribute `contenteditable` that allow users to edit the textContent. It looks like an TextArea but prettier. <br> 2) Have fun with `window.SpeechRecognition` |
 |  21 | 2022-05-24 | Geolocation                  | 1) Use `navigator.geolocation.watchPosition` <br> 2) Need to be on `https` to successfully allow the program to access location |
 |  22 | 2022-05-25 | Follow Along Link Highlighter| 1) Get to know `element.getBoundingClientRect()` |
-|  23 | 2022-05-26 | Speech Synthesis             |  |
+|  23 | 2022-05-26 | Speech Synthesis             | 1) Use `function.bind(null, param)` when there is a need to set param value to a callback function <br> 2) Play around SpeechSynthesis |
+|  24 | 2022-05-27 | Sticky Nav                   |  |
