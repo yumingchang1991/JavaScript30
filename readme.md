@@ -34,4 +34,5 @@ All challenges are written from vanila JavaScript.
 |  21 | 2022-05-24 | Geolocation                  | 1) Use `navigator.geolocation.watchPosition` <br> 2) Need to be on `https` to successfully allow the program to access location |
 |  22 | 2022-05-25 | Follow Along Link Highlighter| 1) Get to know `element.getBoundingClientRect()` |
 |  23 | 2022-05-26 | Speech Synthesis             | 1) Use `function.bind(null, param)` when there is a need to set param value to a callback function <br> 2) Play around SpeechSynthesis |
-|  24 | 2022-05-27 | Sticky Nav                   |  |
+|  24 | 2022-05-27 | Sticky Nav                   | 1) Use `offestHeight` to compenstae the space originally taken by Nav bar <br> 2) Use a combination of `display:flex`, `max-width` changed from 0 ~ 500, and `transition` to get the animation of site logo sliding out smoothly. It won't make it if we specify width. it must be `max-width`  |
+|  25 | 2022-05-28 | Event Manipulations          |  |
