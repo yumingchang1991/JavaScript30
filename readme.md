@@ -37,4 +37,5 @@ All challenges are written from vanila JavaScript.
 |  24 | 2022-05-27 | Sticky Nav                   | 1) Use `offestHeight` to compenstae the space originally taken by Nav bar <br> 2) Use a combination of `display:flex`, `max-width` changed from 0 ~ 500, and `transition` to get the animation of site logo sliding out smoothly. It won't make it if we specify width. it must be `max-width`  |
 |  25 | 2022-05-28 | Event Manipulations          | Review event capture, bubbling, once and stopPropagation |
 |  26 | 2022-05-29 | Stripe Follow Along Nav      | Use ES6 arrow function to bind eventHandler to its element, so that we could use `this` to access that element easily |
-|  27 | 2022-05-30 | Click and Drag               |  |
+|  27 | 2022-05-30 | Click and Drag               | Pure fun to learn horizental scroll |
+|  28 | 2022-05-31 | Video Speed Controller       |  |
