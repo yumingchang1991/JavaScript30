@@ -40,4 +40,4 @@ All challenges are written from vanila JavaScript.
 |  27 | 2022-05-30 | Click and Drag               | Pure fun to learn horizental scroll |
 |  28 | 2022-05-31 | Video Speed Controller       | 1) Fun to know `video.playBackRate` property |
 |  29 | 2022-06-01 | Countdown Timer              | 1) Use ternary to add padding 0 instead of using `Number.toString().paddingStart()` <br> 2) use buttons displayed in flex row to serve as a quick timer set up point <br> 3) Tend to details to clear interval before shooting a new interval |
-|  30 | 2022-06-02 | Whack A Mole                 |  |
+|  30 | 2022-06-02 | Whack A Mole                 | 1) Use recursive function! |
